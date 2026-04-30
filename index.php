@@ -153,7 +153,7 @@
     <div class="header-right">
       <span class="badge" id="balanceBadge">残高：-</span>
       <span class="badge" id="lastUpdated">-</span>
-      <a href="logout.php" style="padding:6px 14px;border-radius:8px;border:1px solid var(--border);color:var(--text2);font-size:12px;font-weight:600;text-decoration:none;transition:all 0.15s;" onmouseover="this.style.borderColor='var(--danger)';this.style.color='var(--danger)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text2)'">ログアウト</a>
+      <a href="logout.php" style="padding:6px 14px;border-radius:8px;border:1px solid var(--border);color:var(--text2);font-size:12px;font-weight:600;text-decoration:none;transition:all 0.15s;" onmouseover="this.style.borderColor='var(--danger)';this.style.color='var(--danger)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text2)'">Logout</a>
 <div class="theme-toggle-wrap">
         <span class="theme-label" id="themeLabel">DARK</span>
         <button class="theme-toggle" onclick="toggleTheme()" title="ライト/ダーク切り替え"></button>
