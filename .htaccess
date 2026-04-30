@@ -1,0 +1,8 @@
+php_value max_execution_time 300
+DirectoryIndex index.php
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^login$ login.php [L]
+RewriteRule ^app$ index.php [L]
+RewriteRule ^$ index.php [L]
