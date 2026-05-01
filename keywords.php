@@ -29,7 +29,7 @@ if ($method === 'GET') {
             FROM keywords k
             LEFT JOIN watch_urls w ON k.keyword_id = w.keyword_id
             GROUP BY k.keyword_id
-            ORDER BY k.created_at DESC
+            ORDER BY k.created_at ASC
         ");
     }
     $keywords = $stmt->fetchAll(PDO::FETCH_ASSOC);
